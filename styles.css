@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Fraunces', serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mug-mobile{
+    height: 420px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.desc{
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 400px;
+    height: 420px;
+    background-color: #ffff;
+    padding: 23px 35px 40px 35px;
+}
+
+h4{
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    margin-top: 20px;
+    width: 250px;
+}
+
+p{
+    color: hsl(229, 13%, 57%);
+    margin-top: 18px;
+    font-weight: 600;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price{
+    margin-top: 20px;
+    color: hsl(228, 12%, 48%);
+    font-size: 18px;
+}
+
+.Amt{
+    font-size: xx-large;
+    color: hsl(158, 36%, 37%);
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.btn{
+    margin-top: 25px;
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    text-align: center;
+    padding-block: 12px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 12px;
+}
+
+.btn:hover {
+    background-color: hsl(158, 35%, 21%);
+}
